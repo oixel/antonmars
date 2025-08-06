@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Riddle for You...</title>
+</head>
+
+<body>
+    <div class="riddle-box">
+        <p>
+            time has passed,<br>
+            and as it stales:<br>
+            you step <i>further</i><br>
+            down<br>
+            the<br>
+            creek.<br>
+            through it still,<br>
+            and without fail,<br>
+            you forever remain a
+        </p>
+
+        <input type="text" id="input-box" placeholder="_ _ _ _ _" />
+    </div>
+    <p class="warning" id="warning"><b>guess a five letter word.</b></p>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+<style>
+    body {
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        background-color: rgb(63, 53, 69);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+    }
+
+    .riddle-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        height: 300px;
+        width: 300px;
+        border: 5px solid;
+        border-radius: 5px;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    input {
+        text-align: center;
+        font-size: 22px;
+        width: 95%;
+        flex-grow: 1;
+        border: none;
+        padding-bottom: 12px;
+    }
+
+    .warning {
+        color: white;
+    }
+
+    .hidden {
+        display: none;
+    }
+</style>
