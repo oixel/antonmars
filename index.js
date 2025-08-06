@@ -12,10 +12,10 @@ function checkAnswer(e) {
 
         if (e.target.value != "FREAK") {
             if (e.target.value.toLowerCase() == "freak") {
-                warning.innerText = "SAY IT WITH YOUR CHEST"
+                warning.innerHTML = "<b>SAY IT WITH YOUR CHEST.</b>"
             }
             else {
-                warning.innerText = `WRONG!!! ${e.target.value} is NOT the password.`
+                warning.innerHTML = `<p><b>WRONG!!!</b> <u>${e.target.value}</u> is <b>NOT</b> the password.<p>`
             }
         }
         else {
