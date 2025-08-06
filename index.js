@@ -25,5 +25,5 @@ function checkAnswer(e) {
 }
 
 function toGift() {
-    window.location.href = "";
+    window.location.href = "https://youtu.be/ZpzzUi_nD6o";
 }
